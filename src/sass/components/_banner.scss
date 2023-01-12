@@ -1,3 +1,53 @@
 /* ********* */
 /* @BANNER */
 /* ********* */
+
+body{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.PildoraAzul{
+    width: map-get($PildorasTamaño, width);
+    height: map-get($PildorasTamaño, height);
+    background-color: #205072;
+    border-radius: map-get($PildorasTamaño, border-radius);
+    
+}
+
+.PildoraAzulClaro{
+    width: map-get($PildorasTamaño, width);
+    height: map-get($PildorasTamaño, height);
+    background-color: #0a7e98;
+    border-radius: map-get($PildorasTamaño, border-radius);
+   
+}
+
+
+.PildoraVerde{
+    width: map-get($PildorasTamaño, width);
+    height: map-get($PildorasTamaño, height);
+    background-color: #56C596;
+    border-radius: map-get($PildorasTamaño, border-radius);
+   
+}
+
+.PildoraVerdeClaro{
+    width: map-get($PildorasTamaño, width);
+    height: map-get($PildorasTamaño, height);
+    background-color: #7BE495;
+    border-radius: map-get($PildorasTamaño, border-radius);
+    
+}
+
+.PildoraVerdeBlanco{
+    width: map-get($PildorasTamaño, width);
+    height: map-get($PildorasTamaño, height);
+    background-color: #CFF4D2;
+    border-radius: map-get($PildorasTamaño, border-radius);
+    
+}
+
+
+

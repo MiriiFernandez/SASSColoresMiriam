@@ -1,3 +1,56 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+$colores: (
+    CilindroAzul: #205072,
+    CilindroAzulFlojo: #0a7e98,
+    CilindroVerdeFlojo: #56C596,
+    CilindroVerdeClaro: #7BE495,
+    CilindroVerdeMasClaro: #CFF4D2,
+);
+
+$PildorasTamaño: (
+    width: 180px,
+    height: 420px,
+    border-radius: 80px 80px,
+);
+
+$CirculosTamaño:(
+    width: 50px,
+    height: 50px,
+    border-radius: 50px,
+)
+
+
+
+// .facebook{
+//     background-color: map-get($social, facebook);
+// }
+
+// .twitter{
+//     background-color: map-get($social, twitter);
+// }
+
+// .instagram{
+//     background-color: map-get($social, instagram);
+// }
+
+// .youtube{
+//     background-color: map-get($social, youtube);
+// }
+
+// .linkedin{
+//     background-color: map-get($social, linkedin);
+// }
+
+// BUCLE PARA COGER DE SOCIAL FACEBOOK, etc.. JUNTO A SU COLOR
+// @each $red,$color in $social {
+//     .#{$red} { 
+//         background-color: $color;
+//         color: lighten($color, 10%);
+//     }
+    
+// }
+
+
