@@ -2,7 +2,14 @@
 /* @BANNER */
 /* ********* */
 
-body{
+main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.sectionCirculos{
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -46,8 +53,50 @@ body{
     height: map-get($PildorasTamaño, height);
     background-color: #CFF4D2;
     border-radius: map-get($PildorasTamaño, border-radius);
+}
+
+.circuloAzul{
+    width: map-get($CirculosTamaño, width);
+    height: map-get($CirculosTamaño, height);
+    border-radius: map-get($CirculosTamaño, border-radius );
+    background: rgb(49,95,123);
+    background: linear-gradient(119deg, rgba(49,95,123,1) 30%, rgba(67,132,142,1) 66%);
+}
+
+.circuloAzulClaro{
+    width: map-get($CirculosTamaño, width);
+    height: map-get($CirculosTamaño, height);
+    border-radius: map-get($CirculosTamaño, border-radius );
+    background: rgb(86,162,154);
+    background: linear-gradient(119deg, rgba(86,162,154,1) 30%, rgba(104,183,153,1) 66%);
+}
+
+.circuloVerde{
+    width: map-get($CirculosTamaño, width);
+    height: map-get($CirculosTamaño, height);
+    border-radius: map-get($CirculosTamaño, border-radius );
+    background: rgb(138,216,155);
+    background: linear-gradient(119deg, rgba(138,216,155,1) 30%, rgba(123,202,152,1) 66%);
+}
+
+.circuloVerdeClaro{
+    width: map-get($CirculosTamaño, width);
+    height: map-get($CirculosTamaño, height);
+    border-radius: map-get($CirculosTamaño, border-radius );
+    background: rgb(131,207,153);
+    background: linear-gradient(119deg, rgba(131,207,153,1) 30%, rgba(94,168,156,1) 66%);
+
     
 }
+
+.circuloVerdeBlanco{
+    width: map-get($CirculosTamaño, width);
+    height: map-get($CirculosTamaño, height);
+    border-radius: map-get($CirculosTamaño, border-radius );
+    background: rgb(183,226,194);
+    background: linear-gradient(119deg, rgba(183,226,194,1) 30%, rgba(136,203,167,1) 66%);
+}
+
 
 
 
